@@ -46,3 +46,21 @@ body {
 .logo {
   height: 40px;
 }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 17.4px;
+  font-weight: 700;
+}
