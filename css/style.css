@@ -121,6 +121,18 @@ body {
   }
 }
 
+@keyframes moveInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -130,6 +142,8 @@ body {
   border-radius: 100px;
 
   transition: all 0.2s;
+
+  animation: moveInFromBottom 0.8s ease-out 0.4s backwards;
 
   position: relative;
 }
