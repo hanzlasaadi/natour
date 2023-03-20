@@ -47,6 +47,15 @@ body {
   height: 40px;
 }
 
+.header-box {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+
+  /* to account for the current element's width */
+  transform: translate(-50%, -50%);
+}
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
