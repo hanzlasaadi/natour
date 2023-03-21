@@ -56,7 +56,7 @@ body {
   transform: translate(-50%, -50%);
 
   /* to center a:link */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .heading-primary {
@@ -143,19 +143,23 @@ body {
 
   transition: all 0.2s;
 
-  animation: moveInFromBottom 0.8s ease-out 0.4s both;
+  /* animation: moveInFromBottom 0.8s ease-out 0.4s both; */
 
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateX(-50%);
 }
 
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(-50%);
 }
 
 .btn-white {
